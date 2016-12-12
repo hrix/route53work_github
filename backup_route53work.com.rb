@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 hosted_zone "route53work.com." do
   rrset "www.route53work.com.", "A" do
-    ttl 301
+    ttl 300
     resource_records(
       "192.168.33.32"
     )
